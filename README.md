@@ -137,27 +137,16 @@ automatically submit them.
 - Execute explicitly approved actions.
 - Record execution failures.
 
-## Learning Roadmap
 
-The project is organized into five hands-on sessions,
-each designed for approximately 90 minutes.
+## Learning roadmap
 
-| Session | Topic | Deliverable |
-|---|---|---|
-| 0 | Environment Setup | Local n8n |
-| 1 | Personal AI Assistant | NOVA v1.0 |
-| 2 | Career Copilot | NOVA v2.0 |
-| 3 | Knowledge Assistant | NOVA v3.0 |
-| 4 | Research and Interview | NOVA v4.0 |
-| 5 | Proactive AI | NOVA v5.0 |
-| 6 | Advanced Topics | Optional extensions |
-
-### Start Learning
-
-The detailed chapters will be published progressively
-as their workflows are implemented and verified.
-
-- [Getting Started](docs/00-getting-started/README.md)
+- [Environment setup](docs/00-getting-started/README.md)
+- [Personal AI Assistant](docs/01-personal-assistant/README.md)
+- [Career Copilot](docs/02-career-copilot/README.md)
+- [Knowledge Assistant](docs/03-knowledge-assistant/README.md)
+- [Research and Interview](docs/04-research-and-interview/README.md)
+- [Proactive Assistant](docs/05-proactive-assistant/README.md)
+- [Advanced Topics](docs/06-advanced-topics/README.md)
 
 ## Technology Stack
 
@@ -191,9 +180,9 @@ before starting.
 The project uses self-hosted n8n Community Edition
 rather than requiring an n8n Cloud subscription.
 
-## Quick Start
+## Quick start
 
-### Prerequisites
+ ### Prerequisites
 
 - Git
 - Docker Engine or Docker Desktop
@@ -223,76 +212,9 @@ http://localhost:5678
 
 Complete the initial n8n account setup.
 
-Follow the Getting Started documentation before
-importing or creating the specialist workflows.
+Once the setting up of n8n account is done, you can start with the course.
 
-## Repository Organization
-
-- `docs/` - Step-by-step learning guides
-- `workflows/` - Importable n8n workflow exports
-- `assets/` - Diagrams and implementation screenshots
-- `sample-data/` - Fictional demonstration datasets
-- `prompts/` - Reusable AI prompts
-- `database/` - Database initialization scripts
-- `tests/` - Workflow and regression tests
-- `instructor/` - Workshop presentation runbooks
-
-## Who Is This Project For?
-
-- Software engineers
-- AI application developers
-- Solution architects
-- Students exploring Generative AI
-- Automation engineers
-- Technical educators
-
-No previous n8n experience is required.
-
-## Implementation Status
-
-This project is under active development.
-
-Capabilities will be marked as verified only after
-successful independent and integration testing.
-
-## Security and Privacy
-
-- Never commit credentials or API keys.
-- Use dedicated demonstration accounts.
-- Use fictional data for learning exercises.
-- Review generated content before using it.
-- Require human approval for consequential actions.
-
-The reference deployment is intended for local,
-single-user educational use, not production hosting.
-
-## Contributing
-
-Suggestions, improvements and reproducible bug reports
-are welcome.
-
-## License
-
-Original project documentation and configuration
-examples are released under the MIT License.
-
-Third-party services and software remain subject to
-their respective licenses and terms.
-
-## Acknowledgements
-
-This project draws upon the capabilities and
-documentation of n8n, OpenAI, Google, Himalayas,
-Firecrawl, Supabase, Tavily and Telegram.
-
-## Final Thought
-
-Don't just build an AI Agent.
-
-Engineer the tools it uses, the context it receives,
-the loops it executes, the permissions it has and
-the criteria by which its success is measured.
-
+*[START HERE: Chapter 0 - Environment setup](docs/00-getting-started/README.md)*
 ---
 
 ## About the mentor

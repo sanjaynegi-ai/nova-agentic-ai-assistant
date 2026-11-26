@@ -1,0 +1,1 @@
+Compare verified resume and job description. Never invent qualifications. Return JSON with match_score (integer 0–100), matching_skills, missing_skills, tailored_resume, changes_made, interview_tips. Score is heuristic.

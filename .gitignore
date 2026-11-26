@@ -1,0 +1,35 @@
+# Local runtime configuration and data
+.env
+.env.*
+!.env.example
+.n8n/
+n8n_data/
+*.sqlite*
+*.log
+
+# Credentials, secrets, and backups
+credentials/
+secrets/
+*.pem
+*.key
+client_secret*.json
+backups/
+*.tar.gz
+
+# Maintainer-only authoring and governance resources
+AGENTS.md
+EXTRACT-FIRST.md
+.github/
+instructor/
+docs/PROJECT-STATUS.md
+docs/ARTIFACT-INVENTORY.md
+
+# Local editor, agent, and operating-system state
+.agents/
+.codex/
+.idea/
+.vscode/
+*.swp
+*.tmp
+Thumbs.db
+.DS_Store
